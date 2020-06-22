@@ -30,29 +30,29 @@ calcular() {
   this.setState(s)
 
   if(s.resultado<16){
-    s.resultadoText ="Magreza Grave"
+    s.resultadoText ="Magreza Grave."
 
   } else if (s.resultado <17){
-    s.resultadoText = "magreza Moderada"
+    s.resultadoText = "magreza Moderada."
   
 
 } else if (s.resultado <18.5){
-  s.resultadoText = "Magreza Leve"
+  s.resultadoText = "Magreza Leve."
 
 
 } else if (s.resultado <25){
-  s.resultadoText = "Saudável"
+  s.resultadoText = "Saudável."
 
 
 } else if (s.resultado <30){
-  s.resultadoText = "Sobrepeso"
+  s.resultadoText = "Sobrepeso."
 
 
 } else if (s.resultado <35){
-  s.resultadoText = "Obsidade Grau I"
+  s.resultadoText = "Obsidade Grau I."
 
 } else if (s.resultado <40){
-  s.resultadoText = "Obsidade Grau II"
+  s.resultadoText = "Obsidade Grau II."
 
 
 } else  {
